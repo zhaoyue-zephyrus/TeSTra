@@ -182,16 +182,16 @@ For more details on the difference between `batch mode` and `stream mode`, pleas
 |       method      |    kernel type    |  mAP (%)  |                             config                                                |   checkpoint   |
 |  ---------------- |  ---------------  |  -------  |  -------------------------------------------------------------------------------  |  ------------  |
 |  LSTR (baseline)  |  Cross Attention  |   69.9    | [yaml](configs/THUMOS/LSTR/lstr_long_512_work_8_kinetics_1x.yaml)                 | [UTBox link](https://utexas.box.com/s/mcmzq1mrqwf5kphoa1ecbhp00fwn0ggy) |
-|  TeSTra           |  Laplace (λ=0.97) |   70.8    | [yaml](configs/THUMOS/TESTRA/testra_long_512_work_8_kinetics_1x_decay_0.97.yaml)  | [UTBox link](https://utexas.box.com/s/tiigzks4n28rux98uegajmfizmmbd37v) |
-|  TeSTra           |    Box (λ=1.0)    |   71.2    | [yaml](configs/THUMOS/TESTRA/testra_long_512_work_8_kinetics_1x_box.yaml)         | [UTBox link](https://utexas.box.com/s/5elnwycfc7w925bmidu3ecv7iu6zg994) |
-|  TeSTra (lite)    |    Box (λ=1.0)    |   67.3    | [yaml](configs/THUMOS/TESTRA/testra_lite_long_512_work_8_kinetics_1x_box.yaml)    | [UTBox link](https://utexas.box.com/s/s1u51vt8ioun6l1o2tts2hzcgkb83h9a) |
+|  TeSTra           |  Laplace (α=e^-λ=0.97) |   70.8    | [yaml](configs/THUMOS/TESTRA/testra_long_512_work_8_kinetics_1x_decay_0.97.yaml)  | [UTBox link](https://utexas.box.com/s/tiigzks4n28rux98uegajmfizmmbd37v) |
+|  TeSTra           |    Box (α=e^-λ=1.0)    |   71.2    | [yaml](configs/THUMOS/TESTRA/testra_long_512_work_8_kinetics_1x_box.yaml)         | [UTBox link](https://utexas.box.com/s/5elnwycfc7w925bmidu3ecv7iu6zg994) |
+|  TeSTra (lite)    |    Box (α=e^-λ=1.0)    |   67.3    | [yaml](configs/THUMOS/TESTRA/testra_lite_long_512_work_8_kinetics_1x_box.yaml)    | [UTBox link](https://utexas.box.com/s/s1u51vt8ioun6l1o2tts2hzcgkb83h9a) |
 
 ### EK100
 
 |  method  |    kernel type    |  verb (overall)  |  noun (overall)  |  action (overall)  |  config  |                                checkpoint                                |
 |  ------  |  ---------------  |  --------------  |  --------------  |  ----------------  |  ------  |  ----------------------------------------------------------------------  |
-|  TeSTra  |  Laplace (λ=0.9)  |       30.8       |       35.8       |        17.6        |  [yaml](configs/EK100/TESTRA/testra_long_64_work_5_anti_2_kinetics_2x_mixup_v+n_eql_decay_0.9.yaml) |  [UTBox link](https://utexas.box.com/s/kayq0jpb9u2wgjdcnmy6r2flxfk87msx) |
-|  TeSTra  |    Box (λ=1.0)    |       31.4       |       33.9       |        17.0        |  [yaml](configs/EK100/TESTRA/testra_long_64_work_5_anti_2_kinetics_2x_mixup_v+n_eql_box.yaml)       |  [UTBox link](https://utexas.box.com/s/ufh35q0by57xo7r305gmcyjjlnjxt800) |
+|  TeSTra  |  Laplace (α=e^-λ=0.9)  |       30.8       |       35.8       |        17.6        |  [yaml](configs/EK100/TESTRA/testra_long_64_work_5_anti_2_kinetics_2x_mixup_v+n_eql_decay_0.9.yaml) |  [UTBox link](https://utexas.box.com/s/kayq0jpb9u2wgjdcnmy6r2flxfk87msx) |
+|  TeSTra  |    Box (α=e^-λ=1.0)    |       31.4       |       33.9       |        17.0        |  [yaml](configs/EK100/TESTRA/testra_long_64_work_5_anti_2_kinetics_2x_mixup_v+n_eql_box.yaml)       |  [UTBox link](https://utexas.box.com/s/ufh35q0by57xo7r305gmcyjjlnjxt800) |
 
 ## Citations
 
