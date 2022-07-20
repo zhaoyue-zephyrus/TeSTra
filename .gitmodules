@@ -1,0 +1,3 @@
+[submodule "external/rulstm"]
+	path = external/rulstm
+	url = git@github.com:fpv-iplab/rulstm.git
