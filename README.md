@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a PyTorch implementation for our ECCV 2022 paper "[`Real-time Online Video Detection with Temporal Smoothing Transformers`](https://arxiv.org/pdf/xxxx.yyyyy.pdf)".
+This is a PyTorch implementation for our ECCV 2022 paper "[`Real-time Online Video Detection with Temporal Smoothing Transformers`](https://arxiv.org/pdf/2209.09236.pdf)".
 
 ![teaser](assets/testra_teaser.png?raw=true)
 
